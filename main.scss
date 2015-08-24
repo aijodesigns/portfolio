@@ -1,0 +1,47 @@
+// Colors
+$maincolor: #66aa9b;
+
+// Background Images
+$background: url(img/bg-dark.jpg);
+
+
+/* Global Styles */
+
+img {
+	padding: 2%;
+}
+
+.about, .skills {
+	padding: 10% 0; 
+}
+
+
+/* Header Styles */
+header {
+	padding: 10% 0; 
+	background: $background;
+	background-attachment: fixed; 
+
+	img {
+		max-width:80%;
+		height: auto;
+	}
+
+}
+
+
+/* Hero Section */
+.hero{
+	background: url(img/hero.jpg);
+	background-size: cover;
+	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+	height: 80%;
+
+	.intro-text {
+		padding-top: 40%;
+		color: rgba(255, 255, 255, 1);
+		text-align: center;
+	}
+
+}
+

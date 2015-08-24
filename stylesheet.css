@@ -1,0 +1,28 @@
+/* Global Styles */
+img {
+  padding: 2%; }
+
+.about, .skills {
+  padding: 10% 0; }
+
+/* Header Styles */
+header {
+  padding: 10% 0;
+  background: url(img/bg-dark.jpg);
+  background-attachment: fixed; }
+  header img {
+    max-width: 80%;
+    height: auto; }
+
+/* Hero Section */
+.hero {
+  background: url(img/hero.jpg);
+  background-size: cover;
+  box-shadow: inset 0px 0px 0 2000px rgba(0, 0, 0, 0.15);
+  height: 80%; }
+  .hero .intro-text {
+    padding-top: 40%;
+    color: white;
+    text-align: center; }
+
+/*# sourceMappingURL=stylesheet.css.map */
